@@ -1,0 +1,44 @@
+{
+  "name": "convert-mssql-mysql",
+  "version": "0.0.1",
+  "description": "This is the library to convert data structure of MSSQL to MySQL.",
+  "main": "./lib/index",
+  "author": {
+    "name": "Roca Chien"
+  },
+  "contributors": [
+    {
+      "name": "Roca Chien",
+      "email": "rocachien@yahoo.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:rocachien/convert-mssql-mysql.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rocachien/convert-mssql-mysql/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/rocachien/convert-mssql-mysql/raw/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "mssql": "^6.3.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "buster": "0.7.18",
+    "dotenv": "^8.2.0",
+    "grunt": "~1.0.1",
+    "grunt-buster": "~0.4.2"
+  },
+  "scripts": {
+    "test": "buster-test",
+    "release": "npm publish"
+  },
+  "readme": "",
+  "readmeFilename": "README.md"
+}
