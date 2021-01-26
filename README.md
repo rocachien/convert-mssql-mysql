@@ -24,8 +24,12 @@ Setting up the MySQl connection for the:
     | User to connection:     | user     |
     | Password to connection: | password |
 
+* Note: the content of file .env.tmp is default environments
 
 ## Changelog
+
+### Version 0.0.2
+* Add new table class to generate table SQL
 
 ### Version 0.0.1
 
